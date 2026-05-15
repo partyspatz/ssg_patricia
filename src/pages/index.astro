@@ -1,18 +1,31 @@
 ---
+import { getEntry, render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { PAGES } from "../config";
 
+// Load bio content
+const bioEntry = await getEntry("bio", "bio");
+const { Content: BioContent } = bioEntry
+	? await render(bioEntry)
+	: { Content: null };
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Patricia Elisabeth Martin</h1>
-		<h1>Freie Universität Berlin</h1>
-	</body>
-</html>
+<BaseLayout title={PAGES.home.title}>
+	<div class="container-narrow">
+		{
+			(PAGES.home.title || PAGES.home.subtitle) && (
+				<header class="page-header">
+					{PAGES.home.title && (
+						<h1 class="page-title">{PAGES.home.title}</h1>
+					)}
+					{PAGES.home.subtitle && (
+						<p class="page-subtitle">{PAGES.home.subtitle}</p>
+					)}
+				</header>
+			)
+		}
+		<div class="prose">
+			{BioContent ? <BioContent /> : <p>Loading bio...</p>}
+		</div>
+	</div>
+</BaseLayout>
