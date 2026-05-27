@@ -2,9 +2,9 @@ import type { SiteConfig, ThemeConfig, SettingsConfig, UmamiAnalyticsConfig, Ana
 
 export const SITE: SiteConfig = {
     website: "https://shannon.github.io/academic-portfolio-astro/",
-    author: "Claude Shannon",
-    desc: "Personal academic portfolio and blog of Claude Shannon, Father of Information Theory.",
-    title: "Claude Shannon",
+    author: "Patricia Elisabeth Martin",
+    desc: "Personal academic portfolio and blog of Patricia Elisabeth Martin.",
+    title: "Patricia Elisabeth Martin",
     ogImage: "shannon.webp",
     postPerPage: 5,
     favicon: "/favicon.svg",

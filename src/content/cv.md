@@ -1,32 +1,33 @@
 ---
-name: "Claude Shannon"
-title: "Mathematician and Electrical Engineer"
+name: "Patricia Elisabeth Martin"
+title: "Scholar of Middle Eastern Studies"
 experience:
-  - role: "Research Mathematician"
-    institution: "Bell Telephone Laboratories"
-    period: "1941 - 1972"
-    description: "Conducted groundbreaking research in information theory, cryptography, and digital computing."
-  - role: "Professor of Electrical Engineering"
-    institution: "MIT"
-    period: "1958 - 1978"
-    description: "Taught courses in information theory, switching theory, and mathematical foundations of computing."
+  - role: "Research Assistant to apl. Prof. Dr. Gerold Necker"
+    institution: "Martin-Luther-Universität, Halle-Wittenberg"
+    period: "2024 - ongoing"
+    description: "Research assistant in the field of kabbalistic studies, working on Hebrew manuscripts from 17th-century Italy. To learn more about the research project, click [here](https://kabbalaheditions.org/projects.en.html)."
 education:
-  - degree: "PhD in Mathematics"
-    institution: "MIT"
-    period: "1936 - 1940"
-    thesis: "An Algebra for Theoretical Genetics"
-    description: "Developed mathematical foundations for genetic inheritance."
-  - degree: "Bachelor of Science in Electrical Engineering"
-    institution: "University of Michigan"
-    period: "1932 - 1936"
+  - degree: "MA Interdisciplinary Studies of the Middle East"
+    institution: "Freie Universität Berlin"
+    period: "2025 - ongoing"
+    thesis: "outstanding"
+    description: "Exploring interdisciplinary perspectives on Levantine societies, cultures and histories."
+  - degree: "Study Abroad Program"
+    institution: "Tel Aviv University"
+    period: "2023 - 2024"
+    description: "Israeli Politics, Middle Eastern Networks, Nationalism, Memory and Commemoration in the Modern Middle East, Political Philosophy, Islam and Politics in the Middle East, The Palestinian-Arab Minority in Israel."
+  - degree: "BA Middle Eastern Studies"
+    institution: "Martin-Luther-Universität, Halle-Wittenberg"
+    period: "2020 - 2025"
 ---
 
 ## Skills
-- Information Theory
-- Mathematics
-- Electrical Engineering
-- Cryptography
-- Computer Science
+- Hebrew (Dalet-1)
+- Arabic (upper intermediate)
+- Data Analysis
+- Redacting & Editing (Scholarly Publication Processes)
+- Information Management
+- Academic Communication
 
 ## Biographical Summary
-Extra biographical notes or a summary can go here.
+Stay tuned for more!
