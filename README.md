@@ -89,7 +89,7 @@ For a comprehensive, step-by-step guide on how to configure your site, modify th
 **👉 [Setting up Your Academic Portfolio](src/content/posts/setting-up-portfolio.md)**
 
 
-## 📋 Configuration
+## 📋 Configuration test
 
 All configuration is managed centrally in the `src/config` directory. Modify these files to personalize your portfolio without touching any UI code:
 
